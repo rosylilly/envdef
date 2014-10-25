@@ -1,0 +1,29 @@
+# envdef
+
+envdef provides methods of getting environment value with default value.
+
+## Installation
+
+```shell
+$ go get github.com/rosylilly/envdef
+```
+
+## Usage
+
+```golang
+package main
+
+import (
+	"github.com/rosylilly/envdef"
+	"fmt"
+)
+
+func main() {
+	AwsAccessKeyId := envdef.Get("AWS_ACCESS_KEY_ID", "default aws accesss key id")
+	fmt.Println(AwsAccessKeyId)
+}
+```
+
+## License
+
+Copyright (c) 2014 @rosylilly Licensed under the MIT License
