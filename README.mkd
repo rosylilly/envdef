@@ -1,5 +1,7 @@
 # envdef
 
+[![wercker status](https://app.wercker.com/status/daabaa5da9021a6d62ae6bbfa79535d6/s "wercker status")](https://app.wercker.com/project/bykey/daabaa5da9021a6d62ae6bbfa79535d6)
+
 envdef provides methods of getting environment value with default value.
 
 ## Installation
